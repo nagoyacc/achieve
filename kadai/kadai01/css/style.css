@@ -16,8 +16,7 @@ ul {
 	padding: 0;     /* 余白を削除 */
 }
 li {
-	list-style: none;
-　　　 /* リスト先頭の黒丸を削除 */
+	list-style: none;   /* リスト先頭の黒丸を削除 */
 }
 .header {
 	background-color: #F5B4B3;
@@ -64,17 +63,17 @@ ul.top_menu {
 .side_menu li:hover {
 	opacity: 0.6;           /*  opacityプロパティの値は0~1です。１を指定するとそのままの色です。0.5を指定すると50％の半透明、0を指定すると完全に透明になります */
 }
-.side_menu .point{
-  background-color: #FCECEC;
+.side_menu .point {
+	background-color: #FCECEC;
 }
-.side_menu .point a{
-  color: #4D4D4D;
+.side_menu .point a {
+	color: #4D4D4D;
 }
-.point{
-  background-color: #F7AAB4;
+.point {
+	background-color: #F7AAB4;
 }
-.point a{
-  color: #F7AAB4;
+.point a {
+	color: #F7AAB4;
 }
 .banner a:hover {
 	opacity: 0.6;
@@ -96,8 +95,7 @@ ul.top_menu {
 	width: 660px;
 	margin-left: 20px;
 	float: left;
-	font-size: 1.5rem;
-	/* background-color: #FFC;  */
+	font-size: 1.5rem;/* background-color: #FFC;  */
 }
 .news {
 	height: 200px;
@@ -133,7 +131,6 @@ ul.top_menu {
 }
 .clearfix:after {
 	content: "";
-	display: block;
-　　　　/*  このコンテンツが幅や高さを持てるよう */
- clear: both;
+	display: block;      /*  このコンテンツが幅や高さを持てるよう */
+	clear: both;
 }
