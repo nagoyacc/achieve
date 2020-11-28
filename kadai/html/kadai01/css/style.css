@@ -1,0 +1,136 @@
+html {
+	font-size: 62.5%;
+	height: 100%;       /* 重要 */
+}
+body {
+	height: 100%;       /* 重要 */
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;     /* 重要 */
+	min-height: 100%;       /* 重要 */
+}
+ul {
+	margin: 0;      /* 余白を削除 */
+	padding: 0;     /* 余白を削除 */
+}
+li {
+	list-style: none;   /* リスト先頭の黒丸を削除 */
+}
+.header {
+	background-color: #F5B4B3;
+	height: 50px;
+	font-size: 1.5rem;
+}
+ul.top_menu {
+	float: right;
+}
+.top_menu li {
+	float: left;
+	width: auto;
+}
+.top_menu li a {
+	color: #fff;
+	text-decoration: none;   /* デフォルトで文字に下線が入ってしまうので、text-decoration: noneではずします */
+	display: block;          /*  このコンテンツが幅や高さを持てるよう */
+	padding: 15px 25px;      /* 上下 15px　 左右 25px　*/
+}
+.top_menu li a:hover {
+	text-decoration: underline;     /* マウスオーバーでアンダーラインが出るように */
+}
+.logo_image {
+	width: 110px;
+	float: left;
+	margin: 0;
+}
+.image_area {
+	width: 100%;
+}
+.wrapper {
+	margin-top: 10px;
+	padding-bottom: 100px;
+}
+.side_menu {
+	width: 300px;
+	float: left;
+}
+.side_menu li {
+	background-color: #F5B4B3;
+	height: 6rem;
+	margin-bottom: 10px;
+}
+.side_menu li:hover {
+	opacity: 0.6;           /*  opacityプロパティの値は0~1です。１を指定するとそのままの色です。0.5を指定すると50％の半透明、0を指定すると完全に透明になります */
+}
+.side_menu .point {
+	background-color: #FCECEC;
+}
+.side_menu .point a {
+	color: #4D4D4D;
+}
+.point {
+	background-color: #F7AAB4;
+}
+.point a {
+	color: #F7AAB4;
+}
+.banner a:hover {
+	opacity: 0.6;
+}
+.side_menu li a {
+	font-size: 2rem;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 2rem;
+}
+.banner img {
+	width: 100%;
+}
+.banner {
+	margin-top: 20px;
+}
+.content {
+	width: 660px;
+	margin-left: 20px;
+	float: left;
+	font-size: 1.5rem;/* background-color: #FFC;  */
+}
+.news {
+	height: 200px;
+	background-color: #FCE8E7;
+	padding: 20px;
+	overflow: scroll;            /*  親要素からはみ出してしまう子要素の表示のさせ方はoverflow */
+	line-height: 2;
+}
+.banner_content {
+	margin-top: 10px;    /* 上部のマージンを設定 */
+	display: table;      /* <table>のように振る舞う */
+}
+.banner_content p {
+	display: table-cell; /* <td>のように振る舞う */
+}
+.banner_content p img {
+	width: 100%;
+}
+.footer {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	background-color: #4D4D4D;
+	display: table;               /*  <p>を上下左右中央に */
+}
+.footer p {
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;            /*  <p>を上下左右中央に */
+	vertical-align: middle;        /*  <p>を上下左右中央に */
+	display: table-cell;           /*  <p>を上下左右中央に */
+}
+.clearfix:after {
+	content: "";
+	display: block;      /*  このコンテンツが幅や高さを持てるよう */
+	clear: both;
+}

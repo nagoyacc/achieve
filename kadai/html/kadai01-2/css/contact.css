@@ -1,0 +1,39 @@
+.contact{
+  border-collapse: collapse;
+}
+.contact tr{
+  height: 7rem;
+}
+.contact th{
+  width: 150px;
+  border-bottom: solid 1px #fff;
+  text-align:right;
+}
+.contact td{
+  width: 510px;
+  padding-left: 2rem;
+  
+}
+.text{
+  width: 480px;
+}
+.contact th p{
+	text-align: center;
+
+}
+.submit{
+	background: #F99;
+	border: solid 1px #B1B1B1;
+	width:80px;
+	height:35px;
+	color:#FFF;
+}
+.submit:hover {
+	opacity: 0.6;
+}
+
+
+
+.selected {
+    background: #CCC;
+}
